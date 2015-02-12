@@ -1,0 +1,31 @@
+{
+  "name": "avro-serializer",
+  "version": "0.0.1",
+  "description": "Simple Apache avro binary serializer.",
+  "main": "avro_serializer.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/foxel/node-avro-serializer"
+  },
+  "keywords": [
+    "avro",
+    "serializer",
+    "buffer"
+  ],
+  "author": "Andrey F. Kupreychik <foxel@quickfox.ru> (https://github.com/foxel)",
+  "license": "LGPLv3",
+  "bugs": {
+    "url": "https://github.com/foxel/node-avro-serializer/issues"
+  },
+  "homepage": "https://github.com/foxel/node-avro-serializer",
+  "dependencies": {
+    "node-avro-io": "^0.2.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.1.0",
+    "chai": "^2.0.0"
+  }
+}

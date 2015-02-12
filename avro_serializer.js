@@ -43,6 +43,12 @@ Serializer.prototype.deserialize = function(buffer) {
             return len == 1
                 ? buffer[i]
                 : buffer.slice(i, this._i);
+        },
+        skip: function(len) {
+            if (this._i + len > buffer.length) {
+                throw "reading after buffer exhausted"
+            }
+            this._i += len;
         }
     });
     var reader = new IO.DatumReader(this._schema, this._schema);

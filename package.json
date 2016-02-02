@@ -1,6 +1,6 @@
 {
   "name": "avro-serializer",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Simple Apache avro binary serializer.",
   "main": "avro_serializer.js",
   "scripts": {
@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/foxel/node-avro-serializer",
   "dependencies": {
-    "node-avro-io": "git://github.com/thecsyco/node-avro-io.git#v0.2.4"
+    "node-avro-io": "^0.3.3"
   },
   "devDependencies": {
     "mocha": "^2.1.0",

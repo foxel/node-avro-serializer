@@ -1,5 +1,5 @@
-Node Avro Serializer
-=========
+# Node Avro Serializer [![Build Status](https://travis-ci.org/foxel/node-avro-serializer.svg?branch=master)](https://travis-ci.org/foxel/node-avro-serializer)
+
 
 A small library providing serialization and deserialization routines for Apache avro binary encoding
 
